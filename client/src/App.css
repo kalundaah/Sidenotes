@@ -7,6 +7,7 @@ nav{
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid black;
+  margin-bottom: 5%;
 }
 .leftnavside{
   width: 50%;
@@ -15,14 +16,69 @@ nav{
   width: 50%;
   display: flex;
   justify-content: space-between;
-  padding:10px;
+  padding:2% 0;
 }
 nav ul{
   list-style: none;
 }
 nav a{
-  padding:0 5%;
+  
   color:inherit;
   text-decoration:none;
   outline: none;
+}
+.notesdiv{
+  padding:5%;
+  width:70%;
+  height:50%;
+  overflow: visible;
+  display: flex;
+  justify-content: space-evenly;
+}
+.notes{
+  width:20%;
+  height:1%;
+  padding: 0 1%;
+  overflow: hidden;
+  scrollbar-arrow-color: black;
+}
+.sliderdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.space{
+  background-color: inherit;
+  color: transparent;
+}
+.actualslider{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30%;
+  height: 100%;
+  width: fit-content;
+ 
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-radius:15%;
+}
+.to_taskdiv{
+  padding-left:0 10px;
+}
+.to_taskbutton{
+  height: 50%;
+  width:100%;
+  background-color: white;
+  color: black;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td{
+  border: 1px solid black;
 }
