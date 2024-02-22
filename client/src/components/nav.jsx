@@ -9,7 +9,8 @@ function Navigationpane() {
             </div>
             <div className="rightnavside">
                 <div className="button"><a href="">My Notes</a></div>
-                <div className="button"><a href="">Sort</a></div>
+                <div className="button"><a href="">My tasks</a></div>
+                <div className="button"><a href="">Labels</a></div>
                 <div className="button"><a href="">Account</a></div>
             </div>
         </nav>
