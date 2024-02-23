@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0 1%;
   overflow: hidden;
+  color:#383d6b;
+  background-color: white;
+}
+
+.logo{
+  width: 40%;
 }
 nav{
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid black;
-  margin-bottom: 5%;
+  border-bottom: 2px solid #383d6b;
+  margin-bottom: 2%;
 }
 .leftnavside{
   width: 50%;
@@ -23,7 +29,7 @@ nav ul{
 }
 nav a{
   
-  color:inherit;
+  color:#383d6b;
   text-decoration:none;
   outline: none;
 }
@@ -61,8 +67,8 @@ nav a{
 }
 
 button{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #383d6b;
   border-radius:15%;
 }
 .to_taskdiv{
@@ -72,7 +78,7 @@ button{
   height: 50%;
   width:100%;
   background-color: white;
-  color: black;
+  color: #383d6b;
 }
 table{
   width: 100%;
