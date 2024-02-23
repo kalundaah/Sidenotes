@@ -1,19 +1,26 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom"
+import "../index.css"
+import "../App.css"
 
 function Navigationpane() {
+
   return (
     <div>
+      <div>
         <nav>
-            <div className="leftnavside">
-                <a href=""><h1>SideNotes</h1></a>
-            </div>
-            <div className="rightnavside">
-                <div className="button"><a href="">My Notes</a></div>
-                <div className="button"><a href="">My tasks</a></div>
-                <div className="button"><a href="">Labels</a></div>
-                <div className="button"><a href="">Account</a></div>
-            </div>
+          <div className="leftnavside">
+            <Link to="/"><img className='logo' src="./logonavigation.svg" alt="" /></Link>
+          </div>
+          <div className="rightnavside">
+            <Link to="/my-notes">My Notes</Link>
+            <Link to="/my-tasks">My tasks</Link>
+            <Link to="/my-labels">Labels</Link>
+            <Link to="/Account">Account</Link>
+          </div>
         </nav>
+      </div>
+    <Outlet />
     </div>
   )
 }
