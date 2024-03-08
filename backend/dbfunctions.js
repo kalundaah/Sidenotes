@@ -7,7 +7,7 @@ MongoClient.connect(mongoURL)
   .then((client) => {
     // Use the MongoDB client and perform database operations
     const db = client.db();
-    console.log('Db successfully connected');
+    console.log('Database successfully connected');
     // Define routes that interact with the database
   })
   .catch((error) => {
