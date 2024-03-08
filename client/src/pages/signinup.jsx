@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet,link } from 'react-router-dom';
+import { Outlet,Link } from 'react-router-dom';
 function Signinup() {
   return (
     <div>

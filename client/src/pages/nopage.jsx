@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigationpane from '../components/nav'
-import { Outlet,link } from 'react-router-dom';
+import { Outlet,Link } from 'react-router-dom';
 function Nopage() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigationpane from '../components/nav'
 import Content from '../components/homepagecontent'
-import { Outlet,link } from 'react-router-dom';
+import { Outlet,Link } from 'react-router-dom';
 
 function Home() {
   return (
