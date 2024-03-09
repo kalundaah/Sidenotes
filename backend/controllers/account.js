@@ -1,5 +1,5 @@
 // Db functions in controllers
-require("../dbfunctions.js")
+require("../db/connection.js")
 
 
 //my notes functions
